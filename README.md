@@ -1,2 +1,2 @@
 # react-portfolio
- Personal portfolio built using ReactJS and Tailwind
+ Personal portfolio built using NextJS and Tailwind

@@ -1,37 +1,32 @@
 {
-    "name": "react-portfolio",
-    "private": true,
-    "homepage": "https://saitejamadha.dev",
-    "version": "1.2.0",
-    "type": "module",
-    "scripts": {
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d dist",
-        "dev": "vite",
-        "build": "tsc && vite build",
-        "preview": "vite preview"
-    },
-    "dependencies": {
-        "framer-motion": "^7.5.1",
-        "react": "^18.2.0",
-        "react-dom": "^18.2.0",
-        "react-icons": "^4.4.0",
-        "react-scroll": "^1.8.7",
-        "react-simple-typewriter": "^4.0.2",
-        "react-social-icons": "^5.15.0",
-        "react-vertical-timeline-component": "^3.6.0"
-    },
-    "devDependencies": {
-        "@types/react": "^18.0.17",
-        "@types/react-dom": "^18.0.6",
-        "@types/react-scroll": "^1.8.4",
-        "@types/react-vertical-timeline-component": "^3.3.6",
-        "@vitejs/plugin-react": "^2.1.0",
-        "autoprefixer": "^10.4.12",
-        "gh-pages": "^4.0.0",
-        "postcss": "^8.4.16",
-        "tailwindcss": "^3.1.8",
-        "typescript": "^4.6.4",
-        "vite": "^3.1.0"
-    }
+  "name": "react-portfolio",
+  "private": true,
+  "homepage": "https://saitejamadha.dev",
+  "version": "1.2.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.18",
+    "framer-motion": "^12.0.0",
+    "next": "^16.0.0",
+    "postcss": "^8.5.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.0.0",
+    "react-simple-typewriter": "^5.0.0",
+    "react-social-icons": "^6.0.0",
+    "react-vertical-timeline-component": "^3.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/react-vertical-timeline-component": "^3.3.6",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
 }
